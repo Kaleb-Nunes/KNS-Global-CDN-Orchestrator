@@ -34,3 +34,19 @@ Seja você o dono de uma operação local ou o gestor de uma multinacional, o **Pro
 * **Failover Geográfico:** Se um datacenter inteiro falhar em um continente, nossa inteligência de DNS redireciona o tráfego para o próximo ponto saudável em milissegundos.
 * **Auditoria de Performance:** Cada requisição é medida. Garantimos estabilidade através da análise de Jitter, impedindo que flutuações de rede afetem a experiência do seu cliente final.
 * **Escalabilidade via Código (IaC):** Novos pontos de presença (PoPs) globais podem ser provisionados em minutos via Ansible, garantindo um padrão de configuração idêntico em qualquer lugar do mundo.
+
+---
+
+##  FAQ para Decisores (Executivos & Stakeholders)
+
+**1. Como este sistema garante estabilidade em pontos globais?**
+Utilizamos o **Protocolo 09**, que monitoriza não apenas se o servidor está "vivo", mas a qualidade da rede (Jitter e Latência). Se um nó global degrada, o tráfego é desviado antes que o utilizador final sinta qualquer lentidão.
+
+**2. O que acontece se o serviço de DNS falhar?**
+A nossa arquitetura é redundante. Utilizamos uma malha de sincronização (via Wireguard) que garante que, se um servidor de DNS falhar, os outros PoPs (Points of Presence) continuam a responder com a última configuração válida.
+
+**3. É possível escalar para 10, 50 ou 100 servidores rapidamente?**
+Sim. Todo o provisionamento é feito via **Ansible (IaC)**. Adicionar um novo servidor em qualquer lugar do mundo é uma tarefa de minutos, não de dias, mantendo 100% de paridade nas configurações.
+
+**4. Como este projeto reduz custos em comparação com AWS ou Azure?**
+Nós eliminamos as taxas de transferência de dados (egress fees) e o "imposto da nuvem" ao utilizar hardware Bare-Metal otimizado. O cliente paga pelo hardware e performance, não pelo volume de tráfego.
