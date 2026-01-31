@@ -64,3 +64,48 @@ Abaixo, apresentamos a visão em tempo real da nossa infraestrutura. Utilizamos a
 * **Gestão de Capacidade:** Monitorização contínua de CPU e Memória para prevenir lentidão em horários de pico.
 * **Visibilidade de Falhas:** Identificação instantânea de anomalias sistémicas antes que cheguem ao cliente final.
 * **Uptime Garantido:** Validação visual de que o nó está operacional e pronto para tráfego.
+
+---
+
+##  Central de Comando & Telemetria (Observabilidade de Elite)
+
+Abaixo, apresentamos a visão consolidada da nossa infraestrutura global. Utilizamos a stack **Zabbix + Grafana** para transformar dados técnicos em inteligência de negócio.
+
+### **Monitorização de Performance (Hardware Bare-Metal)**
+![Dashboard de Performance](assets/grafana-performance.jpg)
+
+**Garantias Operacionais para o Negócio:**
+* **Previsibilidade:** Monitorização contínua para evitar gargalos sistémicos.
+* **Resposta Rápida:** Alertas centralizados que permitem identificar anomalias em segundos.
+* **Resiliência:** Validação visual de que o Protocolo 09 mantém o nó estável mesmo sob alta carga.
+
+---
+
+##  Central de Comando & Prova de Valor (ROI)
+
+Para um gestor de multinacional, dados são ativos. O **Protocolo 09** não apenas executa, ele reporta e prova a eficiência através de telemetria avançada.
+
+### **1. Monitoramento de Infraestrutura (Zabbix & Grafana)**
+Utilizamos dashboards de nível enterprise para garantir que o hardware Bare-Metal opere com 100% de disponibilidade.
+
+![Dashboard de Performance](assets/grafana-performance.jpg)
+
+**Garantia Operacional:**
+* **Uptime Visual:** Identificação instantânea do status "ONLINE" dos nós globais.
+* **Gestão de Saúde:** Monitoramento preditivo de CPU e Memória para evitar gargalos antes que ocorram.
+
+### **2. Prova de Performance: Antes vs. Depois**
+O gráfico abaixo ilustra a eficiência da nossa arquitetura de cache e roteamento, reduzindo drasticamente o tempo de entrega.
+
+![Gráfico de Latência](assets/latency-comparison.png)
+
+* **Legado:** 6.9s de tempo de resposta médio.
+* **Protocolo 09:** 0.06s (Melhoria de +99% na velocidade de entrega).
+
+---
+
+##  Stack Tecnológica de Missão Crítica
+* **Orquestração:** Python & PowerShell.
+* **Infraestrutura:** Nginx Tuning em Bare-Metal.
+* **Monitoramento:** Zabbix, Grafana & IA Log Analyzer.
+* **Rede:** DNS Global com Failover Automático.
