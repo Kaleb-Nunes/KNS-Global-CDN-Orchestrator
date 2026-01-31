@@ -1,0 +1,4 @@
+{
+    "SA-East-1": {"ip": "191.x.x.1", "status": "offline", "latency": 0.99},
+    "US-East-1": {"ip": "34.x.x.2", "status": "online", "latency": 0.12}
+}
