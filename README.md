@@ -33,7 +33,7 @@ Visualização em tempo real de Latência e Carga do Servidor.
 * **Resposta Rápida:** Identificação visual de anomalias.
 
 
-
+![Dashboard Grafana](assets/grafana-performance.jpg)
 
 
 ### **2. Saúde da Rede e DNS (Zabbix)**
@@ -85,13 +85,15 @@ O **Protocolo 09** entrega transparência total através de telemetria de nível
 ### **1. Monitoramento Bare-Metal (Zabbix & Grafana)**
 Dashboards em tempo real garantem que a infraestrutura opere em sua performance máxima.
 
-![Dashboard Grafana](assets/grafana-performance.jpg)
-![Saúde do Nó Zabbix](assets/zabbix-health.jpg)
+
+
 
 ### **2. Prova de Performance Operacional**
 O impacto direto da nossa otimização na experiência do utilizador final.
 
-![Gráfico de Latência](assets/latency-comparison.png)
+
+
+
 
 * **Melhoria:** Redução de latência superior a 99%.
 * **Status:** Todos os nós operacionais e auditados.
