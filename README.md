@@ -1,25 +1,36 @@
-# KNS-Global-CDN-Orchestrator ğŸš€
+#  KNS Global CDN & Orchestrator (Protocolo 09)
 
-## ğŸŒ O Desafio
-Construir uma arquitetura de **CDN Global** operando exclusivamente em **Bare Metal**, eliminando a dependÃªncia de nuvens pÃºblicas para alcanÃ§ar performance bruta e independÃªncia total de infraestrutura.
+### **"Performance de Elite. Resiliência de Multinacional. Simplicidade de Gestão."**
 
-## ğŸ› ï¸ Stack TÃ©cnica & Linguagens
-Este projeto utiliza as melhores prÃ¡ticas de engenharia para cada camada:
-* **AutomaÃ§Ã£o (YAML/Ansible):** OrquestraÃ§Ã£o pragmÃ¡tica para provisionamento e Hardening do sistema.
-* **Performance (Nginx/Kernel):** Tuning profundo de I/O e TCP para entrega de mÃ­dia pesada em servidores fÃ­sicos.
-* **SeguranÃ§a (Networking/Wireguard):** Malha de rede privada criptografada interconectando nÃ³s globais.
-* **InteligÃªncia (Python):** Script de IA para anÃ¡lise preditiva de logs e detecÃ§Ã£o de anomalias no trÃ¡fego.
-
-## ğŸ›¡ï¸ Metodologia: Protocolo 09
-Baseado em 6 anos de experiÃªncia em NOC e Redes Enterprise, o **Protocolo 09** garante:
-1.  **ResiliÃªncia:** Cada nÃ³ Ã© auto-recuperÃ¡vel e blindado na borda.
-2.  **Observabilidade:** Monitoramento fim-a-fim focado em TTFB e saÃºde do hardware fÃ­sico.
-
-## ğŸ“‚ Estrutura do Projeto
-- `/ansible`: Playbooks de automaÃ§Ã£o e tuning de performance.
-- `/network`: ConfiguraÃ§Ãµes de malha VPN e roteamento independente.
-- `/monitoring`: Plano de mÃ©tricas para Zabbix e Grafana.
-- `/docs`: DocumentaÃ§Ã£o tÃ©cnica detalhada da arquitetura.
+Este projeto é uma solução de infraestrutura **Bare-Metal** de alta performance, desenhada para eliminar a dependência de nuvens públicas caras e entregar conteúdo global com latência mínima e disponibilidade garantida.
 
 ---
-*Projeto desenvolvido por Kaleb Nunes dos Santos como desafio tÃ©cnico pessoal.*
+
+##  Por que o Protocolo 09?
+Diferente de soluções convencionais, este orquestrador foca em três pilares fundamentais para o negócio:
+
+1.  **Redução de Custo Operacional:** Sem taxas ocultas de tráfego de saída (Egress Fees).
+2.  **Continuidade de Negócio:** Failover Geográfico Automático  se um ponto cai, o outro assume em milissegundos.
+3.  **Transparência Total:** Monitoramento visual em tempo real para tomada de decisão executiva.
+
+---
+
+##  Performance Validada
+* **Tempo de Resposta (Média):** 0.06s (Cache HIT).
+* **Estabilidade de Rede:** Jitter controlado via auditoria estatística.
+* **Inteligência:** IA integrada para detecção preditiva de falhas.
+
+---
+
+##  Como este projeto protege o seu negócio?
+
+Seja você o dono de uma operação local ou o gestor de uma multinacional, o **Protocolo 09** foi desenhado para remover a complexidade da sua frente:
+
+### **Para Pequenos Negócios (Foco em Simplicidade)**
+* **Gestão Visual:** Você não precisa ser um engenheiro para saber se o seu site está no ar. O nosso Dashboard mostra tudo em cores simples: Verde (OK) e Vermelho (Ação Necessária).
+* **Baixo Custo de Entrada:** Utilizamos hardware Bare-Metal para evitar as faturas imprevisíveis de nuvens públicas.
+
+### **Para Multinacionais (Foco em Resiliência e Compliance)**
+* **Failover Geográfico:** Se um datacenter inteiro falhar em um continente, nossa inteligência de DNS redireciona o tráfego para o próximo ponto saudável em milissegundos.
+* **Auditoria de Performance:** Cada requisição é medida. Garantimos estabilidade através da análise de Jitter, impedindo que flutuações de rede afetem a experiência do seu cliente final.
+* **Escalabilidade via Código (IaC):** Novos pontos de presença (PoPs) globais podem ser provisionados em minutos via Ansible, garantindo um padrão de configuração idêntico em qualquer lugar do mundo.
