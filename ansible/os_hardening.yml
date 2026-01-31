@@ -2,4 +2,10 @@
 - name: HARDENING PROTOCOLO 09
   hosts: localhost
   tasks:
-    - ufw: rule=allow port=443 proto=tcp
+    - name: Configurar Firewall
+      ufw: state=enabled policy=deny direction=incoming
+    - name: Permitir HTTP/HTTPS
+      ufw: rule=allow port='{{ item }}' proto=tcp
+      loop: ['80', '443']
+    - name: Protecao SYN Flood
+      sysctl: name=net.ipv4.tcp_syncookies value=1 state=present

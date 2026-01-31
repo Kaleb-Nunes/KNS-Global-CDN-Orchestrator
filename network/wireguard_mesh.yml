@@ -1,0 +1,6 @@
+---
+- name: SETUP WIREGUARD MESH
+  hosts: localhost
+  tasks:
+    - apt: name=wireguard state=present
+    - shell: wg genkey | tee private.key
