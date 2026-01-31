@@ -50,3 +50,17 @@ Sim. Todo o provisionamento é feito via **Ansible (IaC)**. Adicionar um novo ser
 
 **4. Como este projeto reduz custos em comparação com AWS ou Azure?**
 Nós eliminamos as taxas de transferência de dados (egress fees) e o "imposto da nuvem" ao utilizar hardware Bare-Metal otimizado. O cliente paga pelo hardware e performance, não pelo volume de tráfego.
+
+---
+
+##  Central de Comando & Telemetria (Observabilidade de Elite)
+
+Abaixo, apresentamos a visão em tempo real da nossa infraestrutura. Utilizamos a stack **Zabbix + Grafana** para garantir que cada nó global opere em sua performance máxima.
+
+### **Monitorização de Performance (Nó de Borda)**
+![Dashboard de Performance](https://github.com/Kaleb-Nunes/KNS-Global-CDN-Orchestrator/raw/main/assets/grafana-performance.jpg)
+
+**O que este painel garante ao seu negócio?**
+* **Gestão de Capacidade:** Monitorização contínua de CPU e Memória para prevenir lentidão em horários de pico.
+* **Visibilidade de Falhas:** Identificação instantânea de anomalias sistémicas antes que cheguem ao cliente final.
+* **Uptime Garantido:** Validação visual de que o nó está operacional e pronto para tráfego.
