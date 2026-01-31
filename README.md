@@ -31,7 +31,7 @@ Visualização em tempo real de Latência e Carga do Servidor.
 ![Dashboard Grafana](assets/grafana%20latencia%20bare-metal.jfif)
 
 **Garantias Operacionais para o Negócio:**
-* **Previsibilidade:** Monitorização contínua de CPU e Memória.
+* **Previsibilidade:** Monitorização contínua de CPU e Memória para evitar gargalos sistémicos.
 * **Resposta Rápida:** Identificação visual de anomalias.
 
 ### **2. Saúde da Rede e DNS (Zabbix)**
@@ -46,8 +46,8 @@ O gráfico abaixo prova matematicamente o retorno sobre o investimento do **Proto
 
 ![Gráfico de Latência](assets/latency-comparison.png)
 
-* **Legado:** 6.9s de tempo de resposta.
-* **Protocolo 09:** 0.06s (Melhoria de +99%).
+* **Legado:** 6.9s de tempo de resposta médio.
+* **Protocolo 09:** 0.06s (Melhoria de +99% na velocidade de entrega).
 
 ---
 
