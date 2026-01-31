@@ -33,7 +33,6 @@ Visualização em tempo real de Latência e Carga do Servidor.
 * **Resposta Rápida:** Identificação visual de anomalias.
 
 
-![Dashboard Grafana](assets/grafana-performance.jpg)
 
 
 ### **2. Saúde da Rede e DNS (Zabbix)**
