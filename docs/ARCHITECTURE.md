@@ -1,16 +1,13 @@
-# Arquitetura Técnica - KNS Global CDN (Protocolo 09)
+ï»¿# Arquitetura TÃ©cnica - KNS Global CDN (Protocolo 09)
 
-##  Regras de Negócio
-1. **Independência de Cloud:** Operação exclusiva em hardware Bare-Metal para evitar vendor lock-in.
-2. **Segurança de Borda:** Implementação obrigatória de Hardening sistêmico antes da entrada em produção.
-3. **Eficiência de Performance:** Uso de Direct I/O e Sendfile para maximizar o throughput de rede.
+##  Regras de NegÃ³cio
+1. **IndependÃªncia de Cloud:** OperaÃ§Ã£o exclusiva em Bare-Metal para evitar vendor lock-in.
+2. **SeguranÃ§a de Borda:** Hardening obrigatÃ³rio (Firewall/Kernel) antes da produÃ§Ã£o.
+3. **EficiÃªncia:** Uso de Direct I/O e Sendfile para performance bruta.
 
-##  Parâmetros Técnicos (Tuning)
-| Parâmetro | Valor | Objetivo |
+##  ParÃ¢metros TÃ©cnicos (Tuning)
+| ParÃ¢metro | Valor | Objetivo |
 | :--- | :--- | :--- |
-| worker_connections | 16384 | Suporte a alto volume de usuários simultâneos |
-| sendfile | on | Transferência direta disco-NIC sem overhead de CPU |
-| directio | 512 | Otimização para leitura de arquivos grandes |
-
-##  Inteligência de Monitoramento
-Utilização do 'log_analyzer_ai.py' para análise preditiva de anomalias e isolamento automático de nós instáveis.
+| worker_connections | 16384 | Alta densidade de utilizadores |
+| sendfile | on | Offload de CPU na entrega de ficheiros |
+| directio | 512 | OtimizaÃ§Ã£o para streaming de mÃ©dia |

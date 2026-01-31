@@ -1,11 +1,12 @@
-# Wiki de Implementação - Passo a Passo
+﻿# Wiki de Implementação - Passo a Passo
 
-## 1. Preparação
-- Inicialização do repositório Git e estrutura de pastas.
+## Fase 1: Networking & Segurança
+- Configuração de malha Wireguard para interconexão segura.
+- Hardening sistémico via Ansible.
 
-## 2. Automação (Ansible)
-- Criação do Playbook 'os_hardening.yml' para blindagem do SO.
-- Configuração do template 'nginx_cdn.conf.j2' com tuning de performance.
+## Fase 2: Performance & IA
+- Tuning de Nginx para Edge Nodes.
+- Análise inteligente de logs com Python e IA.
 
-## 3. Validação
-- Execução do 'stress_test.py' para medir TTFB e eficiência de cache.
+## Fase 3: Validação
+- Stress Test comprovando TTFB em milissegundos.
