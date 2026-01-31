@@ -72,3 +72,16 @@ Sim, via Ansible. Provisionamento de novos nós em minutos.
 
 **4. Redução de custos?**
 Eliminação total de taxas de saída (egress fees) de nuvem pública.
+
+---
+
+##  Central de Comando & Prova de Valor (ROI)
+O **Protocolo 09** entrega transparência total através de telemetria de nível enterprise.
+
+### **1. Monitoramento Bare-Metal (Zabbix & Grafana)**
+Dashboards em tempo real garantem que a infraestrutura opere em sua performance máxima.
+
+### **2. Prova de Performance Operacional**
+O impacto direto da nossa otimização na experiência do utilizador final.
+* **Melhoria:** Redução de latência superior a 99%.
+* **Status:** Todos os nós operacionais e auditados.
