@@ -1,94 +1,98 @@
 #  KNS Global CDN & Orchestrator (Protocolo 09)
 
-### **"Performance de Elite. Resiliência de Multinacional. Simplicidade de Gestão."**
+### **"Performance de Elite. ResiliÃªncia de Multinacional. Simplicidade de GestÃ£o."**
 
-Este projeto é uma solução de infraestrutura **Bare-Metal** de alta performance, desenhada para eliminar a dependência de nuvens públicas caras e entregar conteúdo global com latência mínima e disponibilidade garantida.
+Este projeto Ã© uma soluÃ§Ã£o de infraestrutura **Bare-Metal** de alta performance, desenhada para eliminar a dependÃªncia de nuvens pÃºblicas caras e entregar conteÃºdo global com latÃªncia mÃ­nima e disponibilidade garantida.
 
 ---
 
-##  Como este projeto protege o seu negócio?
+##  Como este projeto protege o seu negÃ³cio?
 
-Seja você o dono de uma operação local ou o gestor de uma multinacional, o **Protocolo 09** foi desenhado para remover a complexidade da sua frente:
+Seja vocÃª o dono de uma operaÃ§Ã£o local ou o gestor de uma multinacional, o **Protocolo 09** foi desenhado para remover a complexidade da sua frente:
 
-### **Para Pequenos Negócios (Foco em Simplicidade)**
-* **Gestão Visual:** Você não precisa ser um engenheiro para saber se o seu site está no ar. O nosso Dashboard mostra tudo em cores simples: Verde (OK) e Vermelho (Ação Necessária).
-* **Baixo Custo de Entrada:** Utilizamos hardware Bare-Metal para evitar as faturas imprevisíveis de nuvens públicas.
+### **Para Pequenos NegÃ³cios (Foco em Simplicidade)**
+* **GestÃ£o Visual:** VocÃª nÃ£o precisa ser um engenheiro para saber se o seu site estÃ¡ no ar. O nosso Dashboard mostra tudo em cores simples: Verde (OK) e Vermelho (AÃ§Ã£o NecessÃ¡ria).
+* **Baixo Custo de Entrada:** Utilizamos hardware Bare-Metal para evitar as faturas imprevisÃ­veis de nuvens pÃºblicas.
 
-### **Para Multinacionais (Foco em Resiliência e Compliance)**
-* **Failover Geográfico:** Se um datacenter inteiro falhar em um continente, nossa inteligência de DNS redireciona o tráfego para o próximo ponto saudável em milissegundos.
-* **Auditoria de Performance:** Cada requisição é medida. Garantimos estabilidade através da análise de Jitter, impedindo que flutuações de rede afetem a experiência do seu cliente final.
-* **Escalabilidade via Código (IaC):** Novos pontos de presença (PoPs) globais podem ser provisionados em minutos via Ansible.
+### **Para Multinacionais (Foco em ResiliÃªncia e Compliance)**
+* **Failover GeogrÃ¡fico:** Se um datacenter inteiro falhar em um continente, nossa inteligÃªncia de DNS redireciona o trÃ¡fego para o prÃ³ximo ponto saudÃ¡vel em milissegundos.
+* **Auditoria de Performance:** Cada requisiÃ§Ã£o Ã© medida. Garantimos estabilidade atravÃ©s da anÃ¡lise de Jitter, impedindo que flutuaÃ§Ãµes de rede afetem a experiÃªncia do seu cliente final.
+* **Escalabilidade via CÃ³digo (IaC):** Novos pontos de presenÃ§a (PoPs) globais podem ser provisionados em minutos via Ansible.
 
 ---
 
 ##  Central de Comando & Telemetria (Observabilidade de Elite)
 
-Abaixo, apresentamos a visão consolidada da nossa infraestrutura global. Utilizamos a stack **Zabbix + Grafana** para transformar dados técnicos em inteligência de negócio.
+Abaixo, apresentamos a visÃ£o consolidada da nossa infraestrutura global. Utilizamos a stack **Zabbix + Grafana** para transformar dados tÃ©cnicos em inteligÃªncia de negÃ³cio.
 
-### **1. Monitorização de Performance (Hardware Bare-Metal)**
-Visualização em tempo real de Latência e Carga do Servidor.
+### **1. MonitorizaÃ§Ã£o de Performance (Hardware Bare-Metal)**
+VisualizaÃ§Ã£o em tempo real de LatÃªncia e Carga do Servidor.
 
-![Dashboard Grafana](assets/grafana%20latencia%20bare-metal.jfif)
 
-**Garantias Operacionais para o Negócio:**
-* **Previsibilidade:** Monitorização contínua de CPU e Memória para evitar gargalos sistémicos.
-* **Resposta Rápida:** Identificação visual de anomalias.
 
-### **2. Saúde da Rede e DNS (Zabbix)**
-Status de disponibilidade dos nós globais.
 
-![DNS Health](assets/DNS%20bare-metal.png)
+
+
+**Garantias Operacionais para o NegÃ³cio:**
+* **Previsibilidade:** MonitorizaÃ§Ã£o contÃ­nua de CPU e MemÃ³ria para evitar gargalos sistÃ©micos.
+* **Resposta RÃ¡pida:** IdentificaÃ§Ã£o visual de anomalias.
+
+### **2. SaÃºde da Rede e DNS (Zabbix)**
+Status de disponibilidade dos nÃ³s globais.
+
+
+<img width="1913" height="893" alt="DNS bare-metal" src="https://github.com/user-attachments/assets/53f2c05e-3b2b-41c0-979b-de2464e1600a" />
 
 ---
 
 ##  Prova de Performance: Antes vs. Depois (ROI)
-O gráfico abaixo prova matematicamente o retorno sobre o investimento do **Protocolo 09**.
+O grÃ¡fico abaixo prova matematicamente o retorno sobre o investimento do **Protocolo 09**.
 
-![Gráfico de Latência](assets/latency-comparison.png)
+![GrÃ¡fico de LatÃªncia](assets/latency-comparison.png)
 
-* **Legado:** 6.9s de tempo de resposta médio.
+* **Legado:** 6.9s de tempo de resposta mÃ©dio.
 * **Protocolo 09:** 0.06s (Melhoria de +99% na velocidade de entrega).
 
 ---
 
-##  Stack Tecnológica de Missão Crítica
-* **Orquestração:** Python & PowerShell
+##  Stack TecnolÃ³gica de MissÃ£o CrÃ­tica
+* **OrquestraÃ§Ã£o:** Python & PowerShell
 * **Infraestrutura:** Nginx Tuning em Bare-Metal
 * **Monitoramento:** Zabbix, Grafana & IA Log Analyzer
-* **Rede:** DNS Global com Failover Automático
+* **Rede:** DNS Global com Failover AutomÃ¡tico
 
 ---
 
 ##  FAQ para Decisores
 
 **1. Como este sistema garante estabilidade?**
-Utilizamos auditoria de Jitter em tempo real. Se a qualidade degrada, o tráfego é desviado.
+Utilizamos auditoria de Jitter em tempo real. Se a qualidade degrada, o trÃ¡fego Ã© desviado.
 
 **2. E se o DNS falhar?**
-A arquitetura é descentralizada via malha Wireguard. Não existe ponto único de falha.
+A arquitetura Ã© descentralizada via malha Wireguard. NÃ£o existe ponto Ãºnico de falha.
 
-**3. É escalável?**
-Sim, via Ansible. Provisionamento de novos nós em minutos.
+**3. Ã‰ escalÃ¡vel?**
+Sim, via Ansible. Provisionamento de novos nÃ³s em minutos.
 
-**4. Redução de custos?**
-Eliminação total de taxas de saída (egress fees) de nuvem pública.
+**4. ReduÃ§Ã£o de custos?**
+EliminaÃ§Ã£o total de taxas de saÃ­da (egress fees) de nuvem pÃºblica.
 
 ---
 
 ##  Central de Comando & Prova de Valor (ROI)
 
-O **Protocolo 09** entrega transparência total através de telemetria de nível enterprise.
+O **Protocolo 09** entrega transparÃªncia total atravÃ©s de telemetria de nÃ­vel enterprise.
 
 ### **1. Monitoramento Bare-Metal (Zabbix & Grafana)**
-Dashboards em tempo real garantem que a infraestrutura opere em sua performance máxima.
+Dashboards em tempo real garantem que a infraestrutura opere em sua performance mÃ¡xima.
 
 ![Dashboard Grafana](assets/grafana-performance.jpg)
-![Saúde do Nó Zabbix](assets/zabbix-health.jpg)
+![SaÃºde do NÃ³ Zabbix](assets/zabbix-health.jpg)
 
 ### **2. Prova de Performance Operacional**
-O impacto direto da nossa otimização na experiência do utilizador final.
+O impacto direto da nossa otimizaÃ§Ã£o na experiÃªncia do utilizador final.
 
-![Gráfico de Latência](assets/latency-comparison.png)
+![GrÃ¡fico de LatÃªncia](assets/latency-comparison.png)
 
-* **Melhoria:** Redução de latência superior a 99%.
-* **Status:** Todos os nós operacionais e auditados.
+* **Melhoria:** ReduÃ§Ã£o de latÃªncia superior a 99%.
+* **Status:** Todos os nÃ³s operacionais e auditados.
