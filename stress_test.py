@@ -1,9 +1,19 @@
-import requests, time
+﻿import requests, time, statistics
+
 TARGET = 'http://localhost/video.mp4'
-print(' Testando Performance do CDN...')
-try:
-    for i in range(5):
-        start = time.time()
+latencies = []
+
+print(' Executando Stress Test Operacional...')
+for i in range(10):
+    start = time.time()
+    try:
         r = requests.get(TARGET)
-        print(f'Req {i+1}: {time.time()-start:.4f}s')
-except Exception as e: print(f'Erro: {e}')
+        end = time.time() - start
+        latencies.append(end)
+        print(f'Req {i+1}: {end:.4f}s | Status: {r.status_code}')
+    except: pass
+
+if len(latencies) > 1:
+    print(f'--- RESULTADOS OPERACIONAIS ---')
+    print(f'Média: {statistics.mean(latencies):.4f}s')
+    print(f'Jitter: {statistics.stdev(latencies):.4f}s') # Validação de estabilidade
