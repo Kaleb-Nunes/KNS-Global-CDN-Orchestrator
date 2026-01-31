@@ -1,0 +1,5 @@
+sendfile on;
+tcp_nopush on;
+directio 512;
+aio on;
+proxy_cache_path /var/cache/nginx levels=1:2 keys_zone=cdn_cache:10m max_size=10g;

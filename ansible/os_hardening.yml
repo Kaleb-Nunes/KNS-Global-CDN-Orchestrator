@@ -1,0 +1,5 @@
+---
+- name: HARDENING PROTOCOLO 09
+  hosts: localhost
+  tasks:
+    - ufw: rule=allow port=443 proto=tcp
